@@ -52,7 +52,7 @@ theory
         
 
         syntax :
-               classsubjectName(object) referencesubjectName = new classsubjectName(object)		
+            classsubjectName(object) referencesubjectName = new classsubjectName(object)		
    
 ------------------------------------------------------------------------------------------------- 
 
@@ -72,25 +72,25 @@ theory
            
                it as the same method subjectName but different parameters.
                parameters can --			   
-                                  having multiple parameters.
-								  having differnt types of data types.
-								  having changing order of parameters
+                            having multiple parameters.
+							having differnt types of data types.
+						    having changing order of parameters
 
 ----------------------------------------------------------------------------
 6. variables
-             variables are the container to store the values.
+            variables are the container to store the values.
 			 
 			 they are 3 types of variables-
-			                           a) class variables -
-									                      these variables  are in inside a class and outside method 
-														  and with the static keyword.
+			    a) class variables -
+						these variables  are in inside a class and outside method 
+				        and with the static keyword.
 														  
-										b) instance variable -
-                                                            these variables are in inside a class and outside method 
-														  and without the static keyword.										
+		        b) instance variable -
+                        these variables are in inside a class and outside method 
+						and without the static keyword.										
 			                  
-							            c) local variabls -
-										                  these variables  are in inside a method and outside class 
+                c) local variabls -
+						these variables  are in inside a method and outside class 
 														  
 -------------------------------------------------------------------
 7. this
@@ -110,26 +110,25 @@ theory
 		 ex 2 using new keyword:
 		            string s = new string("priya");
 					
--------------------------------------------------------------------
+--------------------------------------------------------------------------------
 9. methods of string :
                 
-                1) replace - used to repalce the caharcter in string
-                              	
+                1) replace - used to repalce the caharcter in string  	
                         ex - subjectName = "Priya"
-     						string s =	subjectName.replace('P','R');
+     						 string s =	subjectName.replace('P','R');
 
 				2)toUpperCase - it converts the given string into uppercase letter string			
-		                    string s =	subjectName.toUpperCase();
+		                    string s =subjectName.toUpperCase();
 							
 							
                  3)toLowerCase - it converts the given string into lowercase letter string			
-		                    string s =	subjectName.tolowerCase();
+		                    string s =subjectName.tolowerCase();
 							
-				 4)startWith - it adds the characters to the starting of the given string			
-                               string s = subjectName.startWith("hello");
+				 4)startsWith - it adds the characters to the starting of the given string			
+                             string s = subjectName.startWith("hello");
 							   
-			     5)endWith - it adds the characters to the ending of the given string			
-                               string s = subjectName.endWith("bai");
+			     5)endsWith - it adds the characters to the ending of the given string			
+                              string s = subjectName.endWith("bai");
 ------------------------------------------------------------------------------
 10. string is immutable 
                     because onece the entered string is not changed only the address the string is changed
