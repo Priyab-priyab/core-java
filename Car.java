@@ -1,21 +1,21 @@
 public class Car{
 	int price;
 	int warranty;
-	static int numberOfPassengrs;
-	static int size;
-	static int numberOfGears;
+	static int numberOfWheels;
+	static boolean  staring;
+	static int numberOfMirrors;
 	String color;
 	String brand;
 	String model;
 	static String type;
-	static String sunroof;
+	static boolean hasDikki;
 	
 	static{
-		numberOfPassengrs=5;
-		size = 12;
-		numberOfGears =5;
+		numberOfWheels=4;
+		staring = true;
+		numberOfMirrors =3;
 		type ="cars";
-		sunroof = "pop-up";
+		hasDikki = true;
 		
 	}
 	
